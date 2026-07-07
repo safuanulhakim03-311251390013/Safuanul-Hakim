@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Icon Sosmed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap');
+        .font-heading { font-family: 'Saira Extra Condensed', sans-serif; }
+        body { font-family: 'Open Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700 antialiased">
+
+    <!-- SIDEBAR NAVIGASI (Kiri) - Diubah ke warna Biru Modern (#2563EB / #1E40AF) -->
+    <nav class="fixed top-0 left-0 h-screen w-64 bg-[#1E40AF] flex flex-col justify-center items-center p-4 text-center z-50 hidden md:flex">
+        <!-- Foto Profil -->
+        <div class="mb-6">
+            <img class="w-36 h-36 rounded-full border-8 border-[#3B82F6] object-cover" src="sap.jpeg" alt="Foto Profil">
+        </div>
+        <!-- Menu Navigasi -->
+        <div class="flex flex-col space-y-4 font-heading text-xl tracking-wider text-white/70 uppercase">
+            <a href="#about" class="hover:text-white transition duration-200">About</a>
+            <a href="#experience" class="hover:text-white transition duration-200">Experience</a>
+            <a href="#education" class="hover:text-white transition duration-200">Education</a>
+            <a href="#skills" class="hover:text-white transition duration-200">Skills</a>
+            <a href="#interests" class="hover:text-white transition duration-200">Interests</a>
+            <a href="#awards" class="hover:text-white transition duration-200">Awards</a>
+        </div>
+    </nav>
+
+    <!-- KONTEN UTAMA (Kanan) -->
+    <main class="md:ml-64 p-8 md:p-16 max-w-4xl min-h-screen flex flex-col justify-center">
+        
+        <!-- SECTION: ABOUT -->
+        <section id="about" class="py-12 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h1 class="font-heading text-7xl font-bold uppercase leading-none text-gray-900 mb-2">
+                Safuanul <span class="text-[#2563EB]">Hakim</span>
+            </h1>
+            <div class="font-heading text-lg tracking-widest text-gray-500 uppercase mb-6">
+                Indonesia · Aceh,  · 08223456789· 
+                <a href="mailto:safuanulhakim0@email.com" class="text-[#2563EB] hover:underline">safuanulhakim0@gmail.com</a>
+            </div>
+            <p class="text-gray-600 leading-relaxed max-w-2xl text-lg mb-8">
+                Saya adalah mahasiswa yang memiliki minat dalam bidang ekonomi, bisnis, dan teknologi. Saya memiliki kemampuan bekerja sama dalam tim, komunikasi yang baik, serta semangat untuk terus belajar dan mengembangkan keterampilan. Saya aktif dalam berbagai kegiatan akademik maupun organisasi untuk meningkatkan pengalaman dan kemampuan profesional.
+            </p>
+            <!-- Social Media Icons -->
+            <div class="flex space-x-4">
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-linkedin-in text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-github text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-twitter text-xl"></i></a>
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-700 text-white flex items-center justify-center hover:bg-[#2563EB] transition duration-300"><i class="fab fa-facebook-f text-xl"></i></a>
+            </div>
+        </section>
+
+        <!-- SECTION: EXPERIENCE -->
+        <section id="experience" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-10">Experience</h2>
+            
+            <div class="flex flex-col md:flex-row justify-between mb-12">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold uppercase text-gray-800">Aktivitas Organisasi dan Sosial </h3>
+                    <div class="font-heading text-lg tracking-wider text-gray-500 uppercase mb-3">Anggota</div>
+                    <p class="text-gray-600">
+Berpartisipasi dalam kegiatan kampus dan organisasi mahasiswa.
+Bekerja sama dengan teman dalam berbagai kegiatan akademik dan sosial.
+Melatih kemampuan komunikasi, kepemimpinan, dan kerja tim..</p>
+                </div>
+                <div class="text-[#2563EB] font-semibold md:text-right whitespace-nowrap mt-2 md:mt-0">2024-sekarang</div>
+            </div>
+        </section>
+
+        <!-- SECTION: EDUCATION -->
+        <section id="education" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-10">Education</h2>
+            <div class="flex flex-col md:flex-row justify-between">
+                <div>
+                    <h3 class="font-heading text-2xl font-bold uppercase text-gray-800">Universitas Mitra Bangsa</h3>
+                    <div class="font-heading text-lg tracking-wider text-gray-500 uppercase">Management</div>
+                    <p class="text-gray-600 mb-2">Analisa Market</p>
+                </div>
+                <div class="text-[#2563EB] font-semibold md:text-right whitespace-nowrap mt-2 md:mt-0">sep-2025 - sekarang</div>
+            </div>
+        </section>
+
+        <!-- SECTION: SKILLS -->
+        <section id="skills" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Skills</h2>
+            <div class="font-heading text-lg tracking-wider text-gray-500 uppercase mb-4">Mengaji</div>
+            <div class="flex flex-wrap gap-6 text-4xl text-gray-600 mb-8">
+                <i class="fab fa-html5 hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-css3-alt hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-js-square hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-react hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-node-js hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-sass hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-wordpress hover:text-[#2563EB] transition"></i>
+                <i class="fab fa-npm hover:text-[#2563EB] transition"></i>
+            </div>
+        </section>
+
+        <!-- SECTION: INTERESTS -->
+        <section id="interests" class="py-16 border-b border-gray-200 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Interests</h2>
+            <p class="text-gray-600 leading-relaxed mb-4">Pasar Modal dan Cryptocurrency</p>
+        </section>
+
+        <!-- SECTION: AWARDS -->
+        <section id="awards" class="py-16 min-h-[80vh] flex flex-col justify-center">
+            <h2 class="font-heading text-4xl font-bold uppercase text-gray-900 mb-6">Awards & Certifications</h2>
+            <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center"><i class="fas fa-trophy text-yellow-500 mr-3"></i>Juara 3 Lomba Adzan</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>
